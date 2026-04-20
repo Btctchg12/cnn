@@ -13,6 +13,7 @@ from src.models.cnn.cnn_dataset import FTWCNNDataset
 from src.models.cnn.cnn_model import SimpleCNN
 
 
+
 def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("Using device:", device)
@@ -75,6 +76,8 @@ def main():
 
     print("\nClassification Report:")
     print(classification_report(all_labels, all_preds, digits=4))
+
+    
 
 
 if __name__ == "__main__":
