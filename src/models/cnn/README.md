@@ -35,7 +35,8 @@ pip install torch pandas numpy rasterio scikit-learn
 
 ### 2) Download all the necessary files from the website and store them in a parent folder
 
-### 3) Run these files in order. `cnn_dataset.py`,`cnn_model.py`,`cnn_split.py`,`cnn_train.py`,`cnn_evaluation.py`.
+### 3) Run these files in order. 
+`cnn_dataset.py`,`cnn_model.py`,`cnn_split.py`,`cnn_train.py`,`cnn_evaluation.py`.
 
 ## Evaluation Results
 
