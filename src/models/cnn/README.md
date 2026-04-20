@@ -31,3 +31,33 @@ From the project root:
 
 ```bash
 pip install torch pandas numpy rasterio scikit-learn
+
+### 2) Download all the necessary files from the website and store them in a parent folder
+
+### 3) Run these files in order. `cnn_dataset.py`,`cnn_model.py`,`cnn_split.py`,`cnn_train.py`,`cnn_evaluation.py`.
+
+## Evaluation Results
+
+## 📊 Results
+
+```text
+===== TEST RESULT =====
+Accuracy: 0.6456
+Macro F1: 0.6016
+
+Confusion Matrix:
+[[112   8  57]
+ [ 11  23  29]
+ [ 36   5 131]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.7044    0.6328    0.6667       177
+           1     0.6389    0.3651    0.4646        63
+           2     0.6037    0.7616    0.6735       172
+
+    accuracy                         0.6456       412
+   macro avg     0.6490    0.5865    0.6016       412
+weighted avg     0.6523    0.6456    0.6386       412
+
