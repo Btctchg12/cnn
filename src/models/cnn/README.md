@@ -31,6 +31,7 @@ From the project root:
 
 ```bash
 pip install torch pandas numpy rasterio scikit-learn
+```
 
 ### 2) Download all the necessary files from the website and store them in a parent folder
 
@@ -60,4 +61,5 @@ Classification Report:
     accuracy                         0.6456       412
    macro avg     0.6490    0.5865    0.6016       412
 weighted avg     0.6523    0.6456    0.6386       412
+```
 
