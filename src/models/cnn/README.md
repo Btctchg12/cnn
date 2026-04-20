@@ -40,10 +40,7 @@ pip install torch pandas numpy rasterio scikit-learn
 
 ## Evaluation Results
 
-## 📊 Results
-
 ```text
-===== TEST RESULT =====
 Accuracy: 0.6456
 Macro F1: 0.6016
 
