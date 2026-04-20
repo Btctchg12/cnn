@@ -1,7 +1,7 @@
 # CNN 
 
 ## Core Purpose
-- Train a CNN model to classify farmland structure types using Sentinel-2 satellite imagery.
+- Train a CNN model to classify farmland structure types using Sentinel-2 satellite imagery.https://github.com/Btctchg12/cnn/blob/main/src/models/cnn/README.md
 - Use paired multi-temporal inputs (`window_a` and `window_b`) to predict cluster labels and compare with the cluster label from `labeled_geometry_features.csv`.
 ## Inputs
 - A parent folder containing all the files.
