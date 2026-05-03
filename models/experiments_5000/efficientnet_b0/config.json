@@ -1,0 +1,22 @@
+{
+    "model": "EfficientNetB0Classifier",
+    "dataset": "5000 full dataset",
+    "train_csv": "/Users/yitong/Downloads/geofarmer-project-clustering/data/split/train_5000.csv",
+    "validation_csv": "/Users/yitong/Downloads/geofarmer-project-clustering/data/split/validation_5000.csv",
+    "data_root": "/Users/yitong/Downloads/geofarmer-project-clustering/parent",
+    "output_dir": "/Users/yitong/Downloads/geofarmer-project-clustering/models/experiments_5000/efficientnet_b0",
+    "num_classes": 3,
+    "in_channels": 8,
+    "batch_size": 32,
+    "epochs": 30,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.0001,
+    "random_seed": 42,
+    "weighted_loss": true,
+    "pretrained": true,
+    "image_size": [
+        224,
+        224
+    ],
+    "device": "mps"
+}

@@ -1,0 +1,13 @@
+{
+    "model": "SimpleCNN",
+    "num_classes": 3,
+    "batch_size": 32,
+    "epochs": 30,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "random_seed": 42,
+    "weighted_loss": true,
+    "train_csv": "/Users/yitong/Downloads/geofarmer-project-clustering/data/split/train_2300.csv",
+    "val_csv": "/Users/yitong/Downloads/geofarmer-project-clustering/data/split/validation_2300.csv",
+    "image_dir": "/Users/yitong/Downloads/geofarmer-project-clustering/data/chips"
+}

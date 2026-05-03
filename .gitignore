@@ -4,18 +4,23 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 
+# VS Code
+.vscode/
+
 # Raw image data
 parent/
 *.tif
 *.tiff
 
-# Model checkpoints and outputs
-models/
+# Processed data
+data/processed/
+
+# Model checkpoints only
 *.pth
 *.pt
 *.ckpt
 
-# Results
+# Results / outputs
 evaluation_results/
 outputs/
 runs/
@@ -25,5 +30,3 @@ logs/
 *.zip
 *.tar
 *.gz
-.vscode/
-data/processed/
