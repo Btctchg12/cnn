@@ -1,51 +1,29 @@
-# -----------------------
 # Python
-# -----------------------
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.so
-
-# Virtual environments
-venv/
-.env/
-.venv/
-
-# Jupyter
+*.pyc
 .ipynb_checkpoints/
+.DS_Store
 
-# -----------------------
-# Data  
-# -----------------------
-data/*
-!data/README.md
-!data/sample/
-!data/sample/**
+# Raw image data
+parent/
+*.tif
+*.tiff
 
-# -----------------------
-# Outputs
-# -----------------------
+# Model checkpoints and outputs
+models/
+*.pth
+*.pt
+*.ckpt
+
+# Results
+evaluation_results/
 outputs/
+runs/
 logs/
 
-# -----------------------
-# Model artifacts
-# -----------------------
-*.pt
-*.pth
-*.pkl
-*.joblib
-*.h5
-
-# -----------------------
-# OS / Editor
-# -----------------------
-.DS_Store
+# Large compressed files
+*.zip
+*.tar
+*.gz
 .vscode/
-.idea/
-
-# -----------------------
-# Env / secrets
-# -----------------------
-.env
+data/processed/
